@@ -1,0 +1,52 @@
+.home_container {
+    align-items: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    text-align: center; 
+}
+
+.home_title {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'General Sans', sans-serif;
+    color: #e00a52;
+    font-size: 100%;
+}
+
+.home_subtitle {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 50px;
+    font-family: 'Author', sans-serif;
+    font-weight: 700;
+}
+
+.home_description {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+    font-weight: lighter; /* Adjust font weight */
+}
+
+#home {
+    display: flex;
+    padding-bottom: 12rem;
+    justify-content: center; /* Horizontally center align */
+    align-items: center; /* Vertically center align */
+    height: 90vh; /* Optionally set the height to make it fill the viewport */
+}
+button {
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 1px solid white;
+    cursor: pointer;
+}

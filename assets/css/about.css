@@ -1,0 +1,62 @@
+#about {
+    display: block;
+    text-align: center;
+    background-color: white;
+}
+
+.about_title {
+    padding-top: 60px;
+    color: #e00a52;
+    font-size: 15px;
+}
+img {
+    border-radius: 50%;
+    height: 5rem;
+}
+
+p {
+    color: rgb(146, 146, 146);
+}
+
+.introduce {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.about_description {
+    text-align: left; /* Align text to the left */
+    margin-left: 3rem;
+}
+
+.description_container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; /* Ensures the container spans the full width */
+    margin-top: 3rem;
+}
+
+.profile_container,
+.skills_container {
+    width: 50%; 
+}
+
+.description_container h2{
+    font-family: 'Supreme', sans-serif;
+    font-size: medium;
+}
+
+.profile_container p {
+    text-align: left;
+    margin-left: 18.5rem;
+}
+
+.skills_container h2 {
+    margin-right: 29rem;
+}
+
+.skills_des {
+    text-align: left;
+    margin-left: 5rem;
+}
+
