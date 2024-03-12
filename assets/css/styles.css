@@ -81,3 +81,53 @@ ul li ul.dropdown {
 #scrollToTopBtn:hover {
   background-color: #fc259b; /* Choose a slightly different color for hover effect */
 }
+
+.bars {
+  width: 35px;
+  height: 5px;
+  background-color: #e00a52;
+  margin: 6px 0;
+}
+
+.menu {
+  position: fixed;
+  display: inline-block;
+  margin-left: 20rem;
+  margin-top: 5rem;
+}
+
+.menu:hover {
+  cursor: pointer;
+}
+
+.menu:hover .dropdown {
+  display: block;
+  cursor: pointer;
+}
+
+.menu .bars {
+  width: 30px;
+  height: 4px;
+  margin: 4px 0;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  padding: 10px;
+  background-color: white;
+}
+
+.dropdown a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 5px 0;
+}
+
+.dropdown a:hover {
+  color: white;
+  background-color: #e00a52;
+}

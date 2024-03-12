@@ -6,6 +6,7 @@
     padding: 0;
     margin: 0;
     text-align: center; 
+    margin-top: 5rem;
 }
 
 .home_title {
@@ -40,7 +41,7 @@
     padding-bottom: 12rem;
     justify-content: center; /* Horizontally center align */
     align-items: center; /* Vertically center align */
-    height: 90vh; /* Optionally set the height to make it fill the viewport */
+    height: 30rem;
 }
 button {
     background-color: black;
