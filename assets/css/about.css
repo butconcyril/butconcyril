@@ -66,3 +66,10 @@ p {
     margin-right: 20rem;
     margin-top: 3rem;
 }
+.socmed {
+    color: rgb(146, 146, 146);
+    
+}
+.socmed:hover {
+    color: white;
+}
