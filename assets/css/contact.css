@@ -1,0 +1,40 @@
+.contact_container h2 {
+    padding-top: 60px;
+    color: #e00a52;
+    font-size: 15px;    
+}
+
+.contact_container {
+    text-align: center;
+}
+
+.contact_container p{
+    margin-top: 15px;
+}
+#contact {
+    display: block;
+}
+
+.container_title {
+    padding-top: 60px;
+    color: #e00a52;
+    font-size: 15px; 
+}
+
+.container_tag {
+    display: flex;
+    justify-content: center;
+}
+#container_page {
+    margin:0 100px;
+    text-align: center;
+    margin-right: 10rem;
+    margin-top: 2rem;
+}
+.container_description {
+    margin-top: 5px;
+}
+#contact {
+    padding-bottom: 10rem;
+
+}

@@ -7,17 +7,28 @@
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/home.css">
     <link rel="stylesheet" href="assets/css/about.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://api.fontshare.com/v2/css?f[]=general-sans@600&f[]=switzer@901&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header id="header">
-        <div class="container" onclick="myFunction(this)">
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
-          </div>
-    </header>
+    <!-- Add this button at the end of the body section -->
+    <button id="scrollToTopBtn" onclick="scrollToTop()"><i class="fa fa-arrow-up"></i></button>
+
+    <div>
+        <ul>
+            <li class="menu_container">
+              <a class="menu-icon" href="#"><i class="fa fa-bars"></i></a>
+              <ul id="drop" class="dropdown">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </li>
+          </ul>
+    </div>
+      
+      
     
     <section id="home">
         <div class="home_container">
@@ -52,19 +63,29 @@
                     <h2>SKILLS</h2>
                     <br>
                     <p class="skills_des">Can do basic troubleshooting on internet <br>connections and can troubleshoot laptop hardware <br>and computer hardware.</p>
+                    <a href="https://drive.google.com/file/d/1DewwpVkhDQMQAz29zlffd8_ElcVPGqoN/view?usp=drive_link"><button class="resume_bttn">RESUME</button></a>
                 </div>
             </div>
     </section>
-
-    <section id="skills">
-        <div>
-            <h1>Skills</h1>
-        </div>
-    </section>
-
     <section id="contact">
-        <div>
-            <h1>Contact</h1>
+        <div class="contact_container">
+            <h2>C O N T A C T</h2>
+            <h1>I'd Love To Hear From You.</h1>
+            <p>You can contact me anytime. Below are the ways on how you want to contact me <br>through online or in person.</p>
+        </div>
+        <div class="container_tag">
+            <div id="container_page">
+                <h2 class="container_title">WHERE TO FIND ME</h2>
+                <p class="container_description">Sitio, Tapoko <br>Brgy.Pit-Os <br>6000 Cebu</p>
+            </div>
+            <div id="container_page">
+                <h2 class="container_title">EMAIL ME AT</h2>
+                <p class="container_description">butconcyril13@gmail.com</p>
+            </div>
+            <div id="container_page">
+                <h2 class="container_title">CALL ME AT</h2>
+                <p class="container_description">09603259944</p>
+            </div>
         </div>
     </section>
 
@@ -74,6 +95,39 @@
           x.classList.toggle("change");
         }
         </script>
+
+<script>
+    function toggleMenu() {
+      var menu = document.querySelector('.menu');
+      menu.style.display = (menu.style.display === 'flex' || menu.style.display === '') ? 'none' : 'flex';
+    }
+  </script>
+  <script>
+  // Get the button
+  var scrollToTopBtn = document.getElementById("scrollToTopBtn");
+
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function () {
+    scrollFunction();
+  };
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      scrollToTopBtn.style.display = "block";
+    } else {
+      scrollToTopBtn.style.display = "none";
+    }
+  }
+
+  // When the user clicks on the button, scroll to the top of the document
+  function scrollToTop() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+</script>
+  
+  
+  
 </body>
 
 </html>
