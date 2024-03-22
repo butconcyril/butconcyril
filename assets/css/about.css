@@ -2,7 +2,7 @@
     display: block;
     text-align: center;
     background-color: white;
-    padding-bottom: 5rem;
+    height: 100vh;
     margin-top: -1rem;
 }
 
@@ -33,14 +33,15 @@ p {
 
 .description_container {
     display: flex;
-    justify-content: space-between;
-    width: 100%; /* Ensures the container spans the full width */
-    margin-top: 3rem;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-left: 18rem;
 }
 
 .profile_container,
 .skills_container {
-    width: 50%; 
+    width: 30rem;
+    text-align: left !important;
 }
 
 .description_container h2{
@@ -50,7 +51,6 @@ p {
 
 .profile_container p {
     text-align: left;
-    margin-left: 18.5rem;
 }
 
 .skills_container h2 {
@@ -59,11 +59,9 @@ p {
 
 .skills_des {
     text-align: left;
-    margin-left: 5rem;
 }
 .resume_bttn {
     border-radius: 100px;
-    margin-right: 20rem;
     margin-top: 3rem;
 }
 .socmed {

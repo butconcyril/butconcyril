@@ -1,12 +1,12 @@
 .home_container {
     align-items: center;
-    display: block;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 0;
     margin: 0;
     text-align: center; 
-    margin-top: 5rem;
 }
 
 .home_title {
@@ -38,10 +38,10 @@
 
 #home {
     display: flex;
-    padding-bottom: 12rem;
-    justify-content: center; /* Horizontally center align */
-    align-items: center; /* Vertically center align */
-    height: 30rem;
+    height: 102vh;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
 }
 button {
     background-color: black;
